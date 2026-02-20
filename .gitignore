@@ -1,16 +1,37 @@
-# Flutter 
-.dart_tool/ 
-.flutter-plugins 
-.flutter-plugins-dependencies 
-build/ 
-*.apk 
-*.aar 
-*.ipa 
-*.app 
-.packages 
-pubspec.lock 
-.vscode/ 
-.idea/ 
-.DS_Store 
-Thumbs.db 
-.env 
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.apk
+*.aar
+*.ipa
+*.app
+.packages
+pubspec.lock
+
+# Generated files
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+doc/api/
+
+# Environment
+.env
+.env*
